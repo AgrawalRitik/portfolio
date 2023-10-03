@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content = 'IE=edge'>
+        <meta name = "viewport" content="width = device-width,  initial-scale = 1.0">
+        <title>Ritik Agrawal</title>
+        <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+        <link rel = "stylesheet" href = "newstyle.css">
+        <link rel="stylesheet" media="screen and (max-width: 600px)" href="mobile.css">
+        <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> -->
+  </body>
+        <script src="https://kit.fontawesome.com/a6b802f9d3.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        
+        <nav>
+            <img src = "images/Ritik Logo Himself.png" class = "logo">
+            <ul id = "sidemenu">
+                <li><a href = "#header" onclick="closemenu()">Home</a></li>
+                <li><a href = "#about"onclick="closemenu()">About</a></li>
+                <li><a href = "#services"onclick="closemenu()">Services</a></li>
+                <li><a href = "#portfolio" onclick="closemenu()">Portfolio</a></li>
+                <li><a href = "#contact" onclick="closemenu()">Contact</a></li>
+                <i class = "fas fa-times" onclick="closemenu()"></i></ul>
+                <i class = "fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div id = "header">
+            <div class="container" style="margin-left: 0%;">
+                <!-- <nav>
+                    <img src = "images/Ritik Logo Himself.png" class = "logo">
+                    <ul>
+                        <li><a href = "#">Home</a></li>
+                        <li><a href = "#">About</a></li>
+                        <li><a href = "#">Services</a></li>
+                        <li><a href = "#">Portfolio</a></li>
+                        <li><a href = "#">Contact</a></li>
+                    </ul>
+                </nav> -->
+                <div class = "header-text">
+                      
+                 <p  class = "small-screen"style = "font-style:italic"> "Think big Trust Yourself and Make it happen"</p>
+                    <h1>Hi, I'm <span> Ritik Agrawal</span> <br>From India</h1>
+                    <p style = "margin-top:20px">Full Stack Developer</p>
+                    
+             
+                </div>
+           
+            </div>
+
+        </div>
+
+        <!--******************-->
+        <div id = "about">
+           <div class = "container">
+            <div class = "row">
+                <div class = "about-col-1">
+                    <img src = "Images/Full stack developer.jpg">
+                </div>
+                
+                <div class = "about-col-2">
+                    <h1 class = "sub-title"> About Me</h1>  
+                    <p>I am a passionate Full Stack Developer with a strong foundation in both front-end and back-end technologies. With a keen eye for detail and a knack for problem-solving, I craft seamless web applications that provide exceptional user experiences. I thrive in dynamic environments, constantly exploring emerging technologies to stay at the forefront of web development. My goal is to create innovative and efficient solutions that drive digital transformation and deliver value to users.</p> 
+                   <div class ="tab-tiles">
+                    <p class = "tab-links active-link" onclick="opentab('skills')"> Skills</p>
+                    <p class = "tab-links"  onclick="opentab('experience')"  > Experience</p>
+                    <p class = "tab-links" onclick="opentab('education')"> Education</p>
+                    <p class = "tab-links" onclick="opentab('coding')"> Coding</p>
+                    
+                    
+                   </div>
+
+                   <div class = "tab-contents active-tab" id =  "skills">
+                    <ul>
+                        <li><span>Front End Development</span><br>Designing Website with Frameworks such as REACT</li>
+                        <li><span>Back End Development</span><br>Designing & Integrating REST API's and Developing Backend Framework </li>
+                        <li><span>App Design</span><br>Build Android/iOS apps</li>
+                        <li><span>Java Development</span><br>Building applications with Frameworks such as Spring </li>
+                    </ul>
+                   </div>
+                 
+                   <div class = "tab-contents"  id = "experience">
+                    <ul>
+                       <li><span>Jan 2023 - May 2023</span><br>MERN Stack Developer Intern at Praedico Global Research Pvt. Ltd.</li>
+                       <li><span>Feb 2023 - May 2023</span><br> Java Development Apprenticeship at LTI Mindtree</li>
+
+                    </ul>
+                   </div>
+
+                   <div class = "tab-contents"  id = "education"> 
+                    <ul>
+                       <li><span>2019 - 2023</span><br>Bachelor of Technology at Madhav Institute of Technology & Science</li>
+                    </ul>
+                   </div>
+                   <div class = "tab-contents"  id = "coding"> 
+                    <ul>
+                       <li><span style="margin-right:10px">LeetCode</span>
+                       <a href = "https://leetcode.com/Agrawal_Ritik/"> <i class="fa-solid fa-link"></i></a>
+                    </li>
+                       <li><span style="margin-right:10px">CodeChef</span>
+                        <a href = "https://www.codechef.com/users/ritik461">
+                            <i class="fa-solid fa-link"></i>
+                        </a>
+                    </li>
+                       <li><span style="margin-right:10px">GeeksforGeeks</span>
+                        <a href = "https://auth.geeksforgeeks.org/user/ritikagrawal046/?utm_source=geeksforgeeks"><i class="fa-solid fa-link"></i>
+                        </a></li>
+                       
+                    </ul>
+                   </div>
+
+                   
+              
+                </div>
+              
+            </div>
+
+           </div>
+        </div>
+
+
+
+        <!-- ************************************   Services    *******************************************-->
+       <div id = "services">
+        <div class = "container">
+            <h1 class = "sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code fa-lg"></i>
+                    <h2>Web Design</h2>
+                    
+                    <p><ul>
+                        <li>I am specialize in creating captivating and functional websites tailored to your unique brand and goals.</li>
+                       <li> From concept to launch, I will work closely with you to ensure your online presence reflects your vision.</li></ul></p>
+                       <a href = "#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-node-js fa-lg"></i>
+                    <h2>BackEnd Development</h2>
+                    
+                    <p><ul>
+                        <li>I am specialize in building robust and scalable back-end systems to power your web and mobile applications.</li>
+                        <li>My expertise covers a wide range of technologies and frameworks to meet your specific requirements.</li></ul></p>
+                       <a href = "#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-app-store-ios fa-lg"></i>
+                    <h2>App Design</h2>
+                    
+                    <p><ul>
+                       <li>I am specialize in crafting visually stunning and user-friendly mobile app designs that leave a lasting impression.</li>
+                       <li>My designs are tailored to deliver an exceptional user experience on iOS, Android, and cross-platform applications.</li>
+                    
+                       </ul></p>
+                       <a href = "#">Learn more</a>
+                </div>
+            </div>
+        </div>
+       </div>
+
+
+       <!-- ********* ********************   Portfolio ************************-->
+       <div id = "portfolio">
+        <div class = "container">
+            <h1 class = "sub-title">My Work</h1>
+            <div class = "work-list">
+                <div class="work">
+                    <img src = "images/gym_photo.jpeg">
+                    <div class = "layer">
+                        <h3>EvoGym</h3>
+                        <!-- <p>Discover a fitness haven where your journey to a healthier you begins. At EvoGym, we offer a state-of-the-art facility, expert personal training, invigorating group classes, and nutritional guidance, all designed to help you reach your fitness goals. With 24/7 access, we're here to support your fitness journey whenever it suits you. Join us today and take the first step towards a healthier, stronger you.</p> -->
+                       <p>Evogym: Unleash Your Potential. Your journey to a stronger, healthier you begins here.</p>
+                        <a href = "https://gym-typescript-xya.pages.dev/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src = "images/eCommerce-store.jpg">
+                    <div class = "layer">
+                        <h3>Shopiens</h3>
+                        <!-- <p>At Shopiens, we're your go-to online marketplace for all your shopping needs. Discover a wide array of products, from fashion and electronics to home decor and more, all in one place. Shop with confidence, explore trending items, and enjoy a seamless shopping experience from the comfort of your home. Start shopping at Shopiens today and find the perfect products that fit your lifestyle and budget.</p> -->
+                        <p>Shopiens: Your one-stop online marketplace for all your shopping needs, offering a diverse range of products and unbeatable deals, delivered right to your doorstep. Shop with confidence and convenience at Shopiens.</p>
+                        <a href = "https://agrawal-ritik-frontend-ecommerce-ngo.onrender.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src = "images/Social media photo.jpeg">
+                    <div class = "layer">
+                        <h3>Buddypedia</h3>
+                        <!-- <p>Buddypedia is your online social haven, connecting you with friends, family, and a world of possibilities. Share your life's moments, discover new interests, and engage in vibrant conversations with like-minded individuals. Stay connected, express yourself, and build lasting relationships in a safe and welcoming community. Join Buddypedia today and be part of a digital world where friendships thrive.</p> -->
+                       <p>Buddypedia: Your go-to social platform for connecting with friends, sharing moments, and building lasting connections.</p>
+                        <a href = "https://agrawalritik-social-media-frontend.onrender.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src = "images/Admin.jpg">
+                    <div class = "layer">
+                        <h3>Admin Dashboard App</h3>
+                        <!-- <p>Managing your business or organization has never been easier. Our user-friendly interface and powerful features empower you to efficiently oversee operations, analyze data, and make informed decisions. Access real-time insights, track key metrics, and streamline administrative tasks seamlessly. Experience the future of management with [Your Admin Dashboard App's Name]. Simplify, optimize, and stay in control like never before.</p> -->
+                        <p>Streamline management with our intuitive Admin Dashboard, offering real-time data insights and seamless control over your platform's operations.</p>
+                        <a href = "https://agrawal-ritik-client-side.onrender.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> 
+                    </div>
+                </div>
+              
+            </div>
+            <a href="#portfolio" class = "btn">See more</a>
+        </div>
+       </div>
+
+
+     <!-- ***********************   Contact Form ***********************-->
+     <div id = "contact">
+        
+        <div class = "container">
+            <div class = "row">
+                <div class = "contact-left">
+                    <h1 class = "sub-title">
+                        Contact Me
+                    </h1>
+                    <p><i class="fa-solid fa-envelope lg"></i>ritikagrawal047@gmail.com</p>
+                    <p><i class="fa-solid fa-phone lg"></i>+91-8103547861</p>
+                 
+                    <div class="social-icons">
+                    <!-- <a href = "https://www.linkedin.com/in/ritik-agrawal-13b099294/"><i class="fa-brands fa-linkedin"></i></a> -->
+                    <a href="https://linkedin.com/in/ritik-agrawal-13b099294/" target="_blank">
+                        <i class="fa-brands fa-linkedin-in lg"></i>
+                      </a>
+                      
+                    <a href = "https://github.com/AgrawalRitik"><i class="fa-brands fa-github lg"></i></a>
+                </div>
+                <a href = "images/Resume_Ritik Agrawal_MERN_Stack.pdf"  download  class= "btn btn2">Download CV</a>
+                </div>
+                
+                <div class = "contact-right">
+                    <form name = "submit-to-google-sheet">
+                        <input type = "text" name = "Name" placeholder="Your Name" required>
+                        <input type = "email" name = "Email" placeholder="Your Email" required>
+                        <textarea name = "Message"  rows = "6" placeholder="Your Message"></textarea>
+                        <button type ="submit" class = "btn btn2">Submit</button>
+                    </form>
+                    <span id = "msg"></span>
+                </div>
+
+            </div>
+        
+        </div>
+        
+     </div>
+
+     <div class = "copyright">
+        <p>Copyright &copy Omnistique Solutions </p> 
+     </div>
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname)
+            {
+                for(tablink of tablinks)
+                {
+                    tablink.classList.remove("active-link");
+                }
+
+                for(tabcontent of tabcontents)
+                {
+                    tabcontent.classList.remove("active-tab");
+                }
+
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+
+        </script>
+
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+            
+            function openmenu()
+            {
+                sidemenu.style.right = "0";
+
+            }
+            function closemenu()
+            {
+                sidemenu.style.right = "-200px";
+                
+            }
+        </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxv_hJkH0pyniHHs8kYr6NL9kL43sk5D0Cxbnn_llQaoCoTtA0bLybP6BQ_UE8C-ZUGmQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function (){
+                msg.innerHTML = ""
+            },2000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+    </body>
+</html>
